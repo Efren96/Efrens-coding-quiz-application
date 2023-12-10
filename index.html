@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div>
+                <a href="./highscores.html">
+                    <button class="view-highscores-btn" id="view-high-scores">
+                        View Highscores
+                    </button>
+                </a>
+            </div>
+            <div class="timer">
+                <img src="./assets/timer-icon-512x512-vrl212i7.png" alt="" width="18px">
+                <div id="time-left">10s</div>
+            </div>
+        </div>
+    </header>
+    <main class="quiz">
+        <div class="start-screen">
+            <h1 class="quiz-title">Coding Quiz Challenge</h1>
+            <p> <span class="paragraph">Try to answer the following code related questions with the time limit.<br> Keep in
+                mind
+                the incorrect answers will penalize your score time by ten seconds!</span>
+            </p>
+            <a href="./questions.html">
+            <button id="start-button">Start Quiz</button>
+            </a>
+        </div>
+
+        <div class="hide" id="questions">
+            <h2 id="question-words"></h2>
+            <div class="options" id="options"></div>
+        </div>
+
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

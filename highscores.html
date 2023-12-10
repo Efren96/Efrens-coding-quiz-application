@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>High Scores</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="highscores-div">
+        <header>
+            <div class="header">
+                <div>
+                    <a href="./highscores.html">
+                        <button class="view-highscores-btn" id="view-high-scores">
+                            View Highscores
+                        </button>
+                    </a>
+                </div>
+                <div class="timer">
+                    <img src="./assets/timer-icon-512x512-vrl212i7.png" alt="" width="18px">
+                    <span class="time-left">10s</span>
+                </div>
+            </div>
+        </header>
+        <div class="scores">
+            <h1 class="high-scores-title">High Scores</h1>
+            <ol id="highscores"></ol>
+            <a href="index.html">
+                <button id="restart">Restart</button>
+            </a>
+            <button id="clear">Clear Highscores</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

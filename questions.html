@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div>
+                <a href="./highscores.html">
+                    <button class="view-highscores-btn" id="view-high-scores">
+                        View Highscores
+                    </button>
+                </a>
+            </div>
+            <div class="timer">
+                <img src="./assets/timer-icon-512x512-vrl212i7.png" alt="" width="18px">
+                <span class="time-left">10s</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="quiz">
+        <div class="question-screen" id="question-one">
+            <h1 class="questions">Commonly used data types DO NOT include:</h1>
+            <a href="#question-two">
+            <label><input class="questionBtnOne" type="button" name="q1" value="1. Strings"></label><br>
+            <label><input class="questionBtnOne" type="button" name="q1" value="2. Booleans"></label><br>
+            <label><input class="questionBtnOne" type="button" name="q1" value="3. Alerts"></label><br>
+            <label><input class="questionBtnOne" type="button" name="q1" value="4. Numbers"></label><br>
+            </a>
+        </div>
+
+        <div class="question-screen" id="question-two">
+            <h1 class="questions">The condition in an if/else statement is enclosed within__:</h1>
+            <label><input class="questionBtn" type="button" name="q1" value="1. Quotes"></label><br>
+            <label><input class="questionBtn" type="button" name="q1" value="2. Curly Brackets"></label><br>
+            <label><input class="questionBtn" type="button" name="q1" value="3. Parentheses"></label><br>
+            <label><input class="questionBtn" type="button" name="q1" value="4. Square Brackets"></label><br>
+        </div>
+
+        <div class="question-screen" id="question-three">
+            <h1 class="questions">Arrays in JavaScript can be used to store__:</h1>
+            <label><input class="questionBtn" type="button" name="q1" value="1. Numbers and Strings"></label><br>
+            <label><input class="questionBtn" type="button" name="q1" value="2. Other Arrays"></label><br>
+            <label><input class="questionBtn" type="button" name="q1" value="3. Booleans"></label><br>
+            <label><input class="questionBtn" type="button" name="q1" value="4. All of the above"></label><br>
+        </div>
+
+        <div class="question-screen" id="question-four">
+            <h1 class="questions">String values must be enclosed within __ when being assigned to variables.</h1>
+            <label><input class="questionBtn" type="button" name="q1" value="1. Commas"></label><br>
+            <label><input class="questionBtn" type="button" name="q1" value="2. Quotes"></label><br>
+            <label><input class="questionBtn" type="button" name="q1" value="3. Curly Brackets"></label><br>
+            <label><input class="questionBtn" type="button" name="q1" value="4. Parentheses"></label><br>
+        </div>
+
+        <div class="question-screen" id="question-five">
+            <h1 class="questions">A very useful tool used during development and debugging for printing content to the debugger is:</h1>
+            <a href="#hide">
+            <label><input class="questionBtnOne" type="button" name="q1" value="1. Java Script"></label><br>
+            <label><input class="questionBtnOne" type="button" name="q1" value="2. Terminal/Bash"></label><br>
+            <label><input class="questionBtnOne" type="button" name="q1" value="3. For Loops"></label><br>
+            <label><input class="questionBtnOne" type="button" name="q1" value="4. console.log"></label><br>
+        </a>
+        </div>
+
+        <div class="end-quiz" id="hide">
+            <h2 class="all-done">All done!</h2>
+            <p class="your-final-score">Your final score is:
+                <span id="final-score"></span>
+            </p>
+            <p class="please-enter-name">Please enter your name:
+                <input type="text" id="name" max="2" />
+            </p>
+            <a href="./highscores.html">
+                <button id="submit">Submit</button>
+            </a>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
