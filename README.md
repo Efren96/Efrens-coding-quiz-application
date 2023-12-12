@@ -19,7 +19,7 @@ This week we had to make a coding quiz using html, css and java script. The quiz
 * Then i created my java script file to start adding functions to my application like the timer, weather the questions were answered corrctly or incorrectly etc.
 
 
-> **Quiz Application Link**:
+> **Quiz Application Link**: https://efren96.github.io/Efrens-coding-quiz-application/
 
 ### Screenshot
 <img src="./assets/Quiz application screenshot.png">
