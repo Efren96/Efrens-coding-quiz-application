@@ -11,37 +11,40 @@
 
 <body>
     <header>
+        <!--header section-->
         <div class="header">
             <div>
+                <!--link to high scores html file-->
                 <a href="./highscores.html">
+                    <!--highscores button-->
                     <button class="view-highscores-btn" id="view-high-scores">
                         View Highscores
                     </button>
                 </a>
             </div>
+            <!--timer-->
             <div class="timer">
+                <!--timer icon image-->
                 <img src="./assets/timer-icon-512x512-vrl212i7.png" alt="" width="18px">
-                <div id="time-left">10s</div>
+                <span class="time-left">10s</span>
             </div>
         </div>
     </header>
+
     <main class="quiz">
+        <!--quiz start screen-->
         <div class="start-screen">
+            <!--coding quiz title-->
             <h1 class="quiz-title">Coding Quiz Challenge</h1>
             <p> <span class="paragraph">Try to answer the following code related questions with the time limit.<br> Keep in
                 mind
                 the incorrect answers will penalize your score time by ten seconds!</span>
             </p>
+            <!--start button with link to questions html file-->
             <a href="./questions.html">
             <button id="start-button">Start Quiz</button>
             </a>
         </div>
-
-        <div class="hide" id="questions">
-            <h2 id="question-words"></h2>
-            <div class="options" id="options"></div>
-        </div>
-
     </main>
     <script src="./script.js"></script>
 </body>

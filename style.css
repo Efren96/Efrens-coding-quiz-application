@@ -15,6 +15,7 @@ button{
     cursor: pointer;
 }
 
+/*start screen properties*/
 .start-screen{
     height: 100%;
     width: 100%;
@@ -24,6 +25,7 @@ button{
     align-items: center;
     justify-content: center;
 }
+
 
 .header{
     margin-top: 10px;
@@ -36,6 +38,7 @@ button{
     border-bottom: 0.5px solid rgb(200, 200, 200);
 }
 
+/*view high scores button styling*/
 #view-high-scores {
     margin: 5px;
     color: rgb(255, 255, 255);
@@ -45,6 +48,7 @@ button{
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
 }
 
+/*timer styling*/
 .timer{
     background-color: rgb(213, 213, 213);
     display: flex;
@@ -53,6 +57,7 @@ button{
     margin: 5px;
 }
 
+/*coding quiz title on start screen styling*/
 .quiz-title{
     background: -webkit-linear-gradient(rgb(115, 194, 255), rgb(0, 103, 237));
     -webkit-background-clip: text;
@@ -84,6 +89,7 @@ button{
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
 }
 
+/*this sets styling properties for the question pages*/
 .question-screen{
     height: 100%;
     width: 100%;
@@ -94,6 +100,7 @@ button{
     justify-content: center;
 }
 
+/*questions styiling properties*/
 .questions{
     color: white;
     margin: 20px;
@@ -101,6 +108,7 @@ button{
     padding: 15px;
 }  
 
+/*answer options styling properties*/
 .questionBtn{
     color: rgb(255, 255, 255);
     background-color: rgb(255, 0, 72);
@@ -123,6 +131,7 @@ button{
     margin: 15px
 }
 
+/*setting initial display to none then later accessing question through java*/
 #question-two{
     display: none;
 }
@@ -143,6 +152,7 @@ button{
     display: none ;
 }
 
+/*end of quiz page styling properties*/
 .end-quiz{
     height: 100%;
     width: 100%;
@@ -154,6 +164,7 @@ button{
     justify-content: center;
 }
 
+/*end of quiz title styling properties*/
 .all-done{
     background: -webkit-linear-gradient(rgb(255, 211, 117), rgb(255, 174, 0));
     -webkit-background-clip: text;
@@ -177,6 +188,7 @@ button{
     border: none;
 }
 
+/*submit button styling*/
 #submit{
     color: rgb(255, 255, 255);
     background-color: rgb(255, 0, 72);
@@ -187,6 +199,7 @@ button{
     margin:10px
 }
 
+/*highscores page styling properties*/
 .scores{
     height: 80%;
     width: 100%;
@@ -198,6 +211,7 @@ button{
     margin-top: 250px;
 }
 
+/*highscores page title styling properties*/
 .high-scores-title{
     background: -webkit-linear-gradient(rgb(255, 115, 145), rgb(255, 0, 89));
     -webkit-background-clip: text;
@@ -207,6 +221,7 @@ button{
     padding: 15px;
 }
 
+/*restart button styling*/
 #restart{
     margin: 5px;
     color: rgb(255, 255, 255);
@@ -216,6 +231,7 @@ button{
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.4);
 }
 
+/*clear button styling*/
 #clear{
     margin: 5px;
     color: rgb(255, 255, 255);
